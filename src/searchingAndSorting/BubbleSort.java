@@ -1,4 +1,4 @@
-// Java program for implementation of Bubble Sort
+// Implementation of Bubble Sort
 
 package searchingAndSorting;
 
@@ -12,6 +12,7 @@ public class BubbleSort
 		{
 			for (int j = 0; j < n - i -1; j++)
 			{
+				//If elements are in the wrong order, swap them
 				if (arr[j] > arr[j + 1])
 				{
 					// swap arr[j+1] and arr[j]
