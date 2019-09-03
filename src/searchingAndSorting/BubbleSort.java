@@ -1,18 +1,10 @@
+// Java program for implementation of Bubble Sort
+
 package searchingAndSorting;
 
-public class BubbleSort {
-
-	public static void main(String[] args) 
-	{
-		int[] arr = new int[] { 12, 80, 13, 24, 10, 3, 6, 90, 70, 93, 49, 33, 4, 64, 55 };
-		
-		bubbleSort(arr);
-		
-		printArray(arr);
-
-	}
-	
-	public static void bubbleSort(int[] arr)
+public class BubbleSort 
+{
+	public void bubbleSort(int[] arr)
 	{
 		int n = arr.length;
 		
@@ -31,7 +23,7 @@ public class BubbleSort {
 		}
 	}
 	
-	public static void printArray(int[] arr)
+	public void printArray(int[] arr)
 	{
 		for (int i = 0; i < arr.length; i++)
 		{
