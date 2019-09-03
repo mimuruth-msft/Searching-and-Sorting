@@ -1,4 +1,4 @@
-// Implementation of Bubble Sort
+// Implementation of optimized Bubble Sort
 
 package searchingAndSorting;
 
@@ -39,7 +39,10 @@ public class BubbleSort2
 		System.out.print(val + " ");
 	}
 	
-	// Using Arrays.toString()
+	/*
+	    Arrays.toString() to print a string 
+	    representation of the array
+	 */
 	public void printArraytoString(int[] arr)
 	{
 		System.out.print(Arrays.toString(arr));

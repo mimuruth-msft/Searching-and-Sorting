@@ -12,7 +12,7 @@ public class BubbleSort
 		{
 			for (int j = 0; j < n - i -1; j++)
 			{
-				//If elements are in the wrong order, swap them
+				// swap elements in wrong order
 				if (arr[j] > arr[j + 1])
 				{
 					// swap arr[j+1] and arr[j]
@@ -24,6 +24,9 @@ public class BubbleSort
 		}
 	}
 	
+	/*
+	    Display array After Bubble Sort
+	 */
 	public void printArray(int[] arr)
 	{
 		for (int i = 0; i < arr.length; i++)
