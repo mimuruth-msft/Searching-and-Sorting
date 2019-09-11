@@ -6,7 +6,7 @@ public class Sort {
 	
     public static void main(String[] args) {
         int[] numbers = {14, 32, 67, 76, 23, 41, 58, 85};
-/*        
+        
         int n = 1000000;
         String[] list1 = new String[n];
         String[] list2 = new String[n];
@@ -43,32 +43,32 @@ public class Sort {
         mergeSort2(list3);
         double elapsed3 = (System.currentTimeMillis() - start) /
                 1000.0;
-        System.out.println("Marty's merge sort took " + elapsed3
+        System.out.println("Second merge sort took " + elapsed3
                            + " seconds");
         System.out.println();
         
         System.out.println("Ratio = " + elapsed3 / elapsed2);
-*/
+
     }
     
     /*
      public static void main2(String[] args) {
-     System.out.printf("%10s %10s (ms)\n", "n", "Runtime");
-     for (int n = 1000; n <= 999999999; n *= 2) {
-     int[] numbers = createRandomIntArray(n);
+    	 System.out.printf("%10s %10s (ms)\n", "n", "Runtime");
+    	 for (int n = 1000; n <= 999999999; n *= 2) {
+    		 int[] numbers = createRandomIntArray(n);
+    		 
+    		 long startTime = System.currentTimeMillis();
+    		 mergeSort(numbers);
+    		 long endTime = System.currentTimeMillis();
      
-     long startTime = System.currentTimeMillis();
-     mergeSort(numbers);
-     long endTime = System.currentTimeMillis();
-     
-     if (!isSorted(numbers)) {
-     throw new RuntimeException("sort failed");
-     }
-     
-     System.out.printf("%10d %10d\n", n, (endTime - startTime));
-     }
-     }
-     */
+             if (!isSorted(numbers)) {
+            	 throw new RuntimeException("sort failed");
+            	 }
+             
+             System.out.printf("%10d %10d\n", n, (endTime - startTime));
+             }
+    	 }
+      */
     
     public static int[] createRandomIntArray(int size) {
         int[] numbers = new int[size];
